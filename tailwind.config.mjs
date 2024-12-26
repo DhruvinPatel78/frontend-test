@@ -8,8 +8,27 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#E8EDF3",
+        primary: "#33A6BA",
+        dark: "#313E4F",
+        gray: "#989EA7",
+        grayLight: "#E8EDF3",
+        red: "#FF7B92",
+      },
+      fontSize: {
+        title: [
+          "64px",
+          {
+            lineHeight: "64px",
+            fontWeight: "300",
+          },
+        ],
+      },
+      dropShadow: {
+        "3xl": [
+          "0 4px 6px rgba(0, 0, 0, 0.05)",
+          "0 10px 15px rgba(0, 0, 0, 0.15)",
+        ],
       },
     },
   },
